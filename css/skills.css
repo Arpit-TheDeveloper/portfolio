@@ -88,3 +88,36 @@ nav{
     margin-top: 0;
     padding: 0 0 50px 0;
 }
+
+
+.main-heading{
+    color: #f2dada;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.main-grid{
+    margin: 60px 100px;
+    border-radius: 20px;
+    background-color: #0d0d0d;
+    color: #babfc4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.main-card{
+    background-color: #1e1c1c;
+    color: #f2dada;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
