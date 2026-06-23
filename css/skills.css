@@ -1,6 +1,26 @@
+/* Remove default spacing */
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/* Background Video */
+.background-video{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1;
+}
+
+
 body{
     background-color: #050506;
     font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 
@@ -14,6 +34,9 @@ body{
 
 
 nav{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: #050506;
     margin-top: -8px;
@@ -91,6 +114,7 @@ nav{
 
 
 .main-heading{
+    padding-top: 80px;
     color: #f2dada;
     font-size: 40px;
     font-weight: bold;
@@ -100,7 +124,7 @@ nav{
 
 
 .main-grid{
-    margin: 30px 50px;
+    margin: 4   0px 50px;
     border-radius: 20px;
     background-color: #0d0d0d;
     color: #babfc4;
@@ -111,7 +135,6 @@ nav{
 
 .main-card{
     background-color: #1e1c1c;
-    color: #7f2929;
     justify-content: center;
     margin: 50px auto 50px auto;
     width: 80%;
@@ -123,8 +146,8 @@ nav{
 
 
 .main-name{
-    background-color: antiquewhite;
     border-radius: 7px;
+    font-size: 30px;
     text-align: center;
     width: 350px;
     margin: 20px auto;
@@ -132,9 +155,15 @@ nav{
 
 
 .main-view_more{
-    background-color: aliceblue;
-    border-radius: 7px;
-    width: 350px;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 120px;
     text-align: center;
-    margin: auto;
+    margin: 0 auto auto 230px;
+}
+
+
+.main-view_more a{
+    text-decoration: none;
+    color: rgb(246, 90, 90);
 }
