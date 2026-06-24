@@ -138,7 +138,8 @@ nav{
     justify-content: center;
     margin: 50px auto 50px auto;
     width: 80%;
-    height: 500px;
+    min-height: 300px;
+    height: auto;
     border-radius: 20px;
     font-weight: bold;
     font-size: 30px;
