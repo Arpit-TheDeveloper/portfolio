@@ -39,7 +39,6 @@ nav{
     left: 0;
     width: 100%;
     background-color: #050506;
-    margin-top: -8px;
     border-bottom: 1px solid #222222;
 }
 
@@ -83,8 +82,6 @@ nav{
 .footer{
     background-color: #050506;
     border-top: 1px solid #222222;
-    bottom: 0;
-    left: 0;
     width: 100%;
 }
 
@@ -152,7 +149,7 @@ nav{
     border-radius: 7px;
     font-size: 30px;
     text-align: center;
-    width: 350px;
+    width: 90%;
     margin: 20px auto;
 }
 
