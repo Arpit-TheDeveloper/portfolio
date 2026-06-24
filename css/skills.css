@@ -158,9 +158,8 @@ nav{
 .main-view_more{
     border-radius: 4px;
     font-size: 20px;
-    width: 120px;
-    text-align: center;
-    margin: 0 auto auto 230px;
+    display: flex;
+    justify-content: center;
 }
 
 
