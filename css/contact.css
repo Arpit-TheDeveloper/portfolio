@@ -209,6 +209,7 @@ nav{
     transition: transform 0.2s ease-in-out;
     transform: scale(1.07);
     border: 1px solid #6d6aa3;
+    box-shadow: 1px 1px 5px #dac4c4;
 }
 
 
@@ -235,14 +236,8 @@ nav{
 
 
 .block{
-    /* background-color: blue; */
     width: 100%;
     
-}
-
-
-.label{
-    /* background-color: pink; */
 }
 
 
@@ -269,6 +264,7 @@ nav{
     transition: transform 0.2s ease-in-out;
     transform: scale(1.07);
     border: 1px solid #6d6aa3;
+    box-shadow: 1px 1px 5px #dac4c4;
 }
 
 

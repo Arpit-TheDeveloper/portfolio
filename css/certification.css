@@ -176,6 +176,7 @@ nav{
     transition: transform 0.2s ease-in-out;
     transform: scale(1.07);
     border: 1px solid #6d6aa3;
+    box-shadow: 1px 1px 13px #dac4c4;
 }
 
 
