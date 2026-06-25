@@ -203,9 +203,9 @@ nav{
 
 
 .main-link:hover{
-    background-color: #222222;
     transition: transform 0.2s ease-in-out;
     transform: scale(1.07);
+    border: 1px solid #6d6aa3;
 }
 
 
@@ -262,9 +262,9 @@ nav{
 
 
 .btn:hover{
-    background-color: #222222;
     transition: transform 0.2s ease-in-out;
     transform: scale(1.07);
+    border: 1px solid #6d6aa3;
 }
 
 

@@ -148,16 +148,16 @@ nav{
     width: 90%;
     margin: 40px auto;
     border-radius: 20px;
-    background-color: #0d0d0d;
-    color: #babfc4;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
 
 .main-card{
-    background-color: #1e1c1c;
-    margin: 50px auto 50px auto;
+    background-color: #0d0d0d;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 80%;
     min-height: 300px;
     height: auto;
@@ -166,13 +166,14 @@ nav{
     font-size: 30px;
     color: #babfc4;
     text-decoration: none;
+    border: 1px solid #022624;
 }
 
 
 .main-card:hover{
-    background-color: #073230;
     transition: transform 0.2s ease-in-out;
     transform: scale(1.04);
+    border: 1px solid #07854f;
 }
 
 
