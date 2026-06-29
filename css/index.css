@@ -49,23 +49,6 @@ nav{
 }
 
 
-@media (max-width: 768px){
-    nav{
-        width: 95%;
-        padding: 15px;
-        font-size: 14px;
-    }
-}
-
-
-@media (max-width: 360px){
-    nav{
-        width: 95%;
-        padding: 15px;
-        font-size: 14px;
-    }
-}
-
 .navbar{
     display: flex;
 }
@@ -89,6 +72,14 @@ nav{
     letter-spacing: 0.2px;
     padding: 20px;
     border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-content a{
+        font-size: 12px;
+        padding: 10px;
+    }    
 }
 
 
