@@ -38,6 +38,21 @@ body{
 }
 
 
+@media (max-width: 768px) {
+    .github-username{
+        font-size: 20px;
+        padding: 10px;
+    }    
+}
+
+
+@media (max-width: 360px) {
+    .github-username{
+        font-size: 20px;
+        padding: 10px;
+    }    
+}
+
 nav{
     position: fixed;
     top: 0;
