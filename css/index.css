@@ -49,6 +49,23 @@ nav{
 }
 
 
+@media (max-width: 768px){
+    nav{
+        width: 95%;
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 360px){
+    nav{
+        width: 95%;
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
 .navbar{
     display: flex;
 }
