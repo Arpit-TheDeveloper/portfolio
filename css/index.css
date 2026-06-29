@@ -226,12 +226,22 @@ nav{
     width: 25%;
     text-align: center;
     padding: 10px;
+    text-decoration: none;
 }
 
 
 .btn:nth-child(1){
     background-color: #00f3ff;
     color: #000000;
+}
+
+
+.btn:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.07);
+    border: 1px solid #6d6aa3;
+    box-shadow: 1px 1px 1px #dac4c4;
+    
 }
 
 
