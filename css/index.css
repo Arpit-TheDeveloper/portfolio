@@ -137,18 +137,38 @@ nav{
 }
 
 
+.box{
+    width: 88%;
+    margin: auto;
+}
+
+
+.top-line{
+    color: #02aab2;
+    background-color: #222222;
+    text-transform: uppercase;
+    width: 20%;
+    margin-top: 110px;
+    margin-bottom: 40px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
 .grid{
-    /* background-color: darkblue; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 88%;
     margin: auto;
-    margin-top: 170px;
     border-radius: 20px;
 }
 
 
 .i-am{
+    color: #02aab2;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -158,9 +178,10 @@ nav{
 
 .name{
     font-size: 100px;
-    margin-bottom: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
     color: #00f3ff;
-    text-shadow: 0.5px 1px 3px #a799e0;
+    text-shadow: 1.5px 1px 3px #a799e0;
 }
 
 
@@ -168,22 +189,35 @@ nav{
     display: flex;
     width: 75%;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 
 .desig{
-    font-size: 20px;
+    color: #7f7f83;
+    font-size: 22px;
     letter-spacing: 1.5px;
 }
 
 
-.intro p{}
+.intro p{
+    width: 75%;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
 
 
-.button{}
+.button{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
 
 
-.btn{}
+.btn{
+    text-transform: uppercase;
+    font-size: 18px;
+}
 
 
 .photo{}
