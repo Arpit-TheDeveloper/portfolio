@@ -83,6 +83,13 @@ nav{
 }
 
 
+@media (max-width: 360px) {
+    .navbar-content a{
+        font-size: 12px;
+        padding: 10px;
+    }    
+}
+
 .navbar-content a:hover{
     background-color: #022624;
 }
