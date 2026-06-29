@@ -139,7 +139,7 @@ nav{
 .myself{
     background-color: darkblue;
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: repeat(2, 1fr);
     width: 90%;
     margin: auto;
     margin-top: 110px;
