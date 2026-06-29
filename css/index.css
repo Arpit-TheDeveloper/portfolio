@@ -38,21 +38,6 @@ body{
 }
 
 
-@media (max-width: 768px) {
-    .github-username{
-        font-size: 20px;
-        padding: 10px;
-    }    
-}
-
-
-@media (max-width: 360px) {
-    .github-username{
-        font-size: 20px;
-        padding: 10px;
-    }    
-}
-
 nav{
     position: fixed;
     top: 0;
@@ -89,21 +74,6 @@ nav{
     border-radius: 8px;
 }
 
-
-@media (max-width: 768px) {
-    .navbar-content a{
-        font-size: 12px;
-        padding: 10px;
-    }    
-}
-
-
-@media (max-width: 360px) {
-    .navbar-content a{
-        font-size: 12px;
-        padding: 10px;
-    }    
-}
 
 .navbar-content a:hover{
     background-color: #022624;
@@ -282,3 +252,31 @@ nav{
     border-radius: 100%;
     box-shadow: 1px 1px 10px #ffffff;
 }
+
+
+/* For Tablets */
+/* @media (max-width: 768px) {
+    .github-username{
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    .navbar-content a{
+        font-size: 12px;
+        padding: 10px;
+    }    
+}
+ */
+
+/* For Mobiles */
+/* @media (max-width: 360px) {
+    .navbar-content a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    .github-username{
+        font-size: 20px;
+        padding: 8px;
+    }    
+} */
