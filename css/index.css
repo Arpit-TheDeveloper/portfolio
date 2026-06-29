@@ -201,6 +201,7 @@ nav{
 
 
 .intro p{
+    color: #7f7f83;
     width: 75%;
     font-size: 17px;
     margin-bottom: 40px;
@@ -211,13 +212,33 @@ nav{
     width: 75%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 
 .btn{
+    color: #9b9e9f;
+    border: 1px solid #312f2f;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
 }
 
 
-.photo{}
+.btn:nth-child(1){
+    background-color: #00f3ff;
+    color: #000000;
+}
+
+
+.photo img{
+    margin: -50px auto;
+    margin-left: 170px;
+    width: 70%;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px #ffffff;
+}
