@@ -181,7 +181,6 @@ nav{
     margin-bottom: 50px;
     width: 80%;
     min-height: 250px;
-    height: auto;
     border-radius: 20px;
     font-weight: bold;
     font-size: 30px;
@@ -266,5 +265,27 @@ nav{
     .main-grid{
         margin: auto;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .headline{
+        width: 70%;
+        font-size: 25px;
+    }
+
+
+    .heading{
+        font-size: 25px;
+    }
+
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .card{
+        width: 95%;
     }
 }
