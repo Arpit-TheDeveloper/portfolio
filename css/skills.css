@@ -220,7 +220,14 @@ nav{
 .skill-grid img{
     margin: auto;
     margin-top: 20px;
+    border: 1px solid #7c7878;
+    border-radius: 12px;
+}
 
+
+.image:hover{
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.2);
 }
 
 
