@@ -309,4 +309,14 @@ nav{
     .navbar-content.active{
         display: flex;
     }
+
+
+    .link{
+        gap: 20px;
+    }
+
+
+    .link a{
+        font-size: 13px;
+    }
 }
