@@ -152,7 +152,7 @@ nav{
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     width: 90%;
     margin: 40px auto;
     margin-top: 40px;
@@ -186,6 +186,7 @@ nav{
 
 
 .name{
+    color: #11ef2b;
     text-align: center;
     width: 90%;
     margin: auto;
