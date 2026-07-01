@@ -163,10 +163,10 @@ nav{
 .card{
     background-color: #0d0d0d;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     width: 80%;
-    min-height: 300px;
+    min-height: 220px;
     height: auto;
     border-radius: 20px;
     font-weight: bold;
@@ -186,10 +186,10 @@ nav{
 
 
 .name{
-    color: #11ef2b;
+    color: #7d40f7;
     width: 80%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -203,8 +203,10 @@ nav{
 
 
 .cert{
+    color: #49d158;
     font-size: 18px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 
