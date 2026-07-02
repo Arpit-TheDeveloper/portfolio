@@ -34,7 +34,6 @@ body{
 
 
 .github-username{
-    margin-left: 15px;
     font-size: 30px;
     padding: 20px;
     font-weight: bold;
@@ -61,7 +60,7 @@ nav{
 
 .navbar-content{
     display: flex;
-    width: 48%;
+    width: 69%;
     margin-left: auto;
 }
 
