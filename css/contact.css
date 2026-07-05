@@ -290,7 +290,6 @@ nav{
 
 
 #message{
-    padding-left: 15px;
     padding-right: 210px;
     padding-bottom: 90px;
 }
@@ -403,7 +402,20 @@ nav{
     }
 
 
+    .layout{
+        margin-top: 40px;
+    }
 
+
+    .block{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    #message{
+        padding-right: 0;
+        padding-bottom: 90px;
+    }
 
 
     .btn{
