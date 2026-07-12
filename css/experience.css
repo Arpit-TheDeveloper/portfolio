@@ -151,9 +151,19 @@ nav{
 }
 
 
-.subheading{
-    font-size: 30px;
+.company{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 50px; */
+}
+
+
+.separator{
+    background-color: #222222;
     margin: auto;
+    width: 95%;
+    font-size: 1px;
 }
 
 
@@ -164,7 +174,6 @@ nav{
 
 
 .card{
-    background-color: #0d0d0d;
     width: 90%;
     margin: auto;
     margin-bottom: 100px;
@@ -172,8 +181,25 @@ nav{
 }
 
 
+.description{
+    padding: 10px;
+}
+
+
+.position{
+    font-size: 23px;
+}
+
+
 .details{
-    margin: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.list{
+    margin-top: 20px;
+    margin-left: 60px;
 }
 
 
