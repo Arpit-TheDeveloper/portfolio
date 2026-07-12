@@ -139,6 +139,38 @@ nav{
 }
 
 
+.heading{
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    width: 35%;
+    color: #f2dada;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.subheading{
+    color: #747452;
+    font-size: 30px;
+}
+
+
+.grid{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.card{
+    background-color: green;
+    width: 90%;
+    margin: auto;
+}
+
+
 /* For Tablets */
 @media (max-width: 768px) {
     .navbar{
