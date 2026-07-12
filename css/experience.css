@@ -144,26 +144,10 @@ nav{
     margin-top: 110px;
     margin-bottom: 50px;
     width: 35%;
-    color: #f2dada;
+    color: #ffffff;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-}
-
-
-.company{
-    color: red;
-    font-weight: bold;
-    font-size: 40px;
-    margin-left: 50px; */
-}
-
-
-.separator{
-    background-color: #222222;
-    margin: auto;
-    width: 95%;
-    font-size: 1px;
 }
 
 
@@ -177,17 +161,38 @@ nav{
     width: 90%;
     margin: auto;
     margin-bottom: 100px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border:  1px solid #5d5d60;
 }
 
 
-.description{
-    padding: 10px;
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
 }
 
 
-.position{
-    font-size: 23px;
+.company{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.tenure{
+    font-size: 18px;
+}
+
+
+.separator{
+    background-color: #222222;
+    margin: auto;
+    width: 95%;
+    font-size: 1px;
 }
 
 
@@ -198,8 +203,15 @@ nav{
 
 
 .list{
+    color: #7f7f83;
     margin-top: 20px;
     margin-left: 60px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #6c56fa;
 }
 
 
