@@ -139,6 +139,50 @@ nav{
 }
 
 
+.heading{
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.block{
+    margin: auto;
+    width: 90%;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.intro{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.about{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+
+.description p{
+    color: #7f7f83;
+    margin-bottom: 35px;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+
+
 /* For Tablets */
 @media (max-width: 768px) {
     .navbar{
