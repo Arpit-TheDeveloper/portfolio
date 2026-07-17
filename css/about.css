@@ -162,6 +162,13 @@ nav{
 }
 
 
+.video{
+    background-color: blue;
+    width: 95%;
+    border-radius: 20px;
+}
+
+
 .intro{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
